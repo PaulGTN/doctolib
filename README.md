@@ -1,24 +1,35 @@
-# README
+ ## DOCTOLIB
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  <h2>Contenu</h2>
 
-Things you may want to cover:
+  ### 1- 6 models
 
-* Ruby version
+  ### 2- 6 migrates correspondants
 
-* System dependencies
+  ### 3- Un beau seed pour mélanger tout ça
 
-* Configuration
+## Etapes d'utilisation :
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+Pour lancer le programme une fois gitcloné :
 
-* Services (job queues, cache servers, search engines, etc.)
+```
 
-* Deployment instructions
+   $> bundle install
 
-* ...
+```
+Ensuite : 
+
+```
+
+   $> rails db:migrate
+
+```
+Enfin : 
+
+```
+
+   $> rails db:seed
+
+```
